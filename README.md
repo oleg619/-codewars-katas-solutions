@@ -5,10 +5,12 @@
 There's a folder for each kata nested in its own kyu
 
 ```ascii
-├── Kyu4
-│   └── NextBiggerNumberWithTheSameDigits.cs
-│
-├── Kyu5
-│   └── MaximumSubarraySum.cs
-│
-└── ...
+src
+├── Kata.Solutions
+    ├── Kyu4
+    │   └── NextBiggerNumberWithTheSameDigits.cs
+    │
+    ├── Kyu5
+    │   └── MaximumSubarraySum.cs
+    │
+    └── ...
