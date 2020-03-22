@@ -1,0 +1,22 @@
+name: ASP.NET Core
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.300'
+
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+
+    - name: Test with dotnet
+      run: dotnet test --configuration Release
