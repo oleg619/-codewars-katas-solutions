@@ -16,7 +16,7 @@ jobs:
         dotnet-version: '3.1.200'
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build src/Kata.sln --configuration Release
 
     - name: Test with dotnet
-      run: dotnet test --configuration Release
+      run: dotnet test src/Kata.sln --configuration Release
