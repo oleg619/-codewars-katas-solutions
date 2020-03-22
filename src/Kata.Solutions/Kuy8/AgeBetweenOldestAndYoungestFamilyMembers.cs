@@ -1,6 +1,5 @@
 ﻿using Xunit;
 
-
 namespace Kata.Solutions.Kuy8
 {
     public class AgeBetweenOldestAndYoungestFamilyMembers
